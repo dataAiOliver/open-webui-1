@@ -537,7 +537,7 @@ __builtins__.input = input`);
 		{#if citations.web.length > 0}
         {#each citations.web as file}
             <li>
-                <a href={file.url} download target="_blank" rel="noopener noreferrer" style="color: magenta">
+                <a href={file.name} download target="_blank" rel="noopener noreferrer" style="color: magenta">
 					View Source {file.name}
 				</a>				
             </li>
