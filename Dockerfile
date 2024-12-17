@@ -46,6 +46,7 @@ ARG UID
 ARG GID
 
 ## Basis ##
+ENV NODE_OPTIONS=--max_old_space_size=4096
 ENV ENV=prod \
     PORT=8080 \
     # pass build args to the build
